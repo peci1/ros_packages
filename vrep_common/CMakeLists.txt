@@ -37,5 +37,5 @@ generate_messages(DEPENDENCIES std_msgs sensor_msgs)
 
 catkin_package(
   LIBRARIES
-  CATKIN_DEPENDS
+  CATKIN_DEPENDS message_runtime
 )
